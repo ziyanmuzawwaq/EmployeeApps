@@ -7,14 +7,14 @@ namespace EmployeeApps.Api.Repositories
     public class BaseRepository
     {
         private readonly IConfiguration configuration;
-        protected readonly IMemoryCache MemoryCachePricelist;
+        protected readonly IMemoryCache MemoryCache;
 
         protected IDbConnection DbEmployee => new SqlConnection(configuration.GetValue<string>("Database:ConnectionStrings"));
 
         public BaseRepository(IConfiguration configuration, IMemoryCache memoryCache)
         {
             this.configuration = configuration;
-            MemoryCachePricelist = memoryCache;
+            MemoryCache = memoryCache;
         }
     }
 }

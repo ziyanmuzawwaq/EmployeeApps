@@ -18,3 +18,8 @@
     * Nama: Adi, DepartmentId: 1
     * Nama: Abi, DepartmentId: 2
     * Nama: Aji, DepartmentId: 2
+
+
+## Swagger
+
+![image](https://github.com/user-attachments/assets/e6a705e0-f65e-4168-99a0-b2f8e9aa059c)
